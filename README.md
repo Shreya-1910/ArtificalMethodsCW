@@ -20,7 +20,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 
 Important Notes
 
-- The project includes a **5% sample dataset** for quick execution and testing.
+- The project includes a **5% sample dataset** for running the algorithms.
 - For full experiments, use the **complete CICIDS2017 dataset**.
 - You MUST update the dataset file paths in the notebooks:
   - `sample_data/` path 
