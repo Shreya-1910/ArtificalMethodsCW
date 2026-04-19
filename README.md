@@ -6,24 +6,15 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 ---
 
 ##  Folder Structure
-project/
-│
-├── data/
-│ ├── raw_dataset/ # Original CICIDS2017 dataset
-│ ├── preprocessed_data/ # Cleaned and processed dataset
-│ └── sample_data/ # 5% sampled dataset 
-│
-├── notebooks/
-│ ├── random_forest.ipynb # Baseline Random Forest model
-│ ├── ga_feature_selection.ipynb# Genetic Algorithm feature selection
-│ ├── pso_feature_selection.ipynb# Particle Swarm Optimization feature selection
-│ └── hybrid_pso_ga.ipynb # Hybrid PSO-GA feature selection
-│
-├── paper/ # Conference paper submission
-│
-├── video/ # Project explanation
-│
-└── README.md # Project documentation
+ Directory | Description 
+|-----------|-------------
+| `data/CXICIDS2017/` | Original CICIDS2017 dataset (unprocessed) 
+| `data/preprocessed_data/` | Cleaned data 
+| `data/sample_data/` | 5%  sample 
+| `notebooks/` | Jupyter notebooks 
+| `paper/` | Conference paper
+| `video/` | Project explanation 
+
 
 ---
 
@@ -40,7 +31,7 @@ project/
 
 ##  How to Use
 
-1. Open the required notebook in Jupyter Notebook or Jupyter Lab.
+1. Open the required notebook in Jupyter Notebook.
 2. Set the dataset path (sample or full dataset depending on usage).
 3. Run cells sequentially to perform preprocessing, feature selection and model evaluation.
 4. View results in the output cells.
