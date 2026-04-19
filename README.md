@@ -15,7 +15,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 | `COMP2024-CW-GroupTeamAlpha` | Conference paper
 | `video` | Project explanation 
 | `README.md` | execution instructions
-| `OptimisationSample/` | Code to generate 5% sample data from preprocessed dataset |
+| `OptimisationSample` | Code to generate 5% sample data from preprocessed dataset |
 
 ---
 
