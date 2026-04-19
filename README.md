@@ -12,7 +12,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 | `preprocessed_data` | Cleaned data 
 | `sample_data` | 5%  sample 
 | `GA/PSO/GWO/GA+PSO notebooks/` | Jupyter notebooks 
-| ` conference paper/` | Conference paper
+| `conference paper/` | Conference paper
 | `video/` | Project explanation 
 
 
@@ -24,7 +24,7 @@ Important Notes
 - For full experiments, use the **complete CICIDS2017 dataset**.
 - You MUST update the dataset file paths in the notebooks:
   - `sample_data/` path 
-  - `raw_dataset/` path 
+  - `full_dataset/` path 
 - Ensure all paths point to the correct local directory where the datasets are stored before running any notebook.
 
 ---
@@ -32,8 +32,8 @@ Important Notes
 ##  How to Use
 
 1. Open the required notebook in Jupyter Notebook.
-2. Set the dataset path (sample or full dataset depending on usage).
-3. Run cells sequentially to perform preprocessing, feature selection and model evaluation.
+2. Set the dataset path (sample and full).
+3. Run cells sequentially.
 4. View results in the output cells.
 ---
 
