@@ -8,17 +8,17 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 ##  Folder Structure
  Directory | Description 
 |-----------|-------------
-| `data/CXICIDS2017/` | Original CICIDS2017 dataset (unprocessed) 
-| `data/preprocessed_data/` | Cleaned data 
-| `data/sample_data/` | 5%  sample 
-| `notebooks/` | Jupyter notebooks 
-| `paper/` | Conference paper
+| `CXICIDS2017` | Original CICIDS2017 dataset (unprocessed) 
+| `preprocessed_data` | Cleaned data 
+| `sample_data` | 5%  sample 
+| `GA/PSO/GWO/GA+PSO notebooks/` | Jupyter notebooks 
+| ` conference paper/` | Conference paper
 | `video/` | Project explanation 
 
 
 ---
 
-##Important Notes
+Important Notes
 
 - The project includes a **5% sample dataset** for quick execution and testing.
 - For full experiments, use the **complete CICIDS2017 dataset**.
