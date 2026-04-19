@@ -12,9 +12,9 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 | `preprocessed_data` | Cleaned data 
 | `sample_data` | 5%  sample 
 | `GA/PSO/GWO/GA+PSO/Random forest notebooks` | Jupyter notebooks 
-| `conference paper` | Conference paper
+| `COMP2024-CW-GroupTeamAlpha` | Conference paper
 | `video` | Project explanation 
-
+| `README.md` | execution instructions
 
 ---
 
