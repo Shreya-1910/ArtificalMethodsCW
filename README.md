@@ -8,7 +8,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 ##  Folder Structure
  Directory | Description 
 |-----------|-------------
-| `CXICIDS2017` | Original CICIDS2017 dataset (unprocessed) 
+| `CICIDS2017` | Original CICIDS2017 dataset (unprocessed) 
 | `preprocessed_data` | Cleaned data 
 | `sample_data` | 5%  sample 
 | `GA/PSO/GWO/GA+PSO/Random forest notebooks` | Jupyter notebooks 
@@ -20,8 +20,9 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 
 Important Notes
 
-- The project includes a **5% sample dataset** for running the algorithms.
-- For full experiments, use the **complete CICIDS2017 dataset**.
+- The project includes a 5% sample dataset for running the PSO-GA hybrid optimization algorithms.
+- The sample data is split into training and validation sets to evaluate feature subset fitness during optimization.
+- After optimal features are selected, a final Random Forest model is trained on the full preprocessed training dataset and evaluated on the full preprocessed test dataset.
 - You MUST update the dataset file paths in the notebooks:
   - `sample_data/` path 
   - `full_dataset/` path 
