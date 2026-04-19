@@ -11,7 +11,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 | `CXICIDS2017` | Original CICIDS2017 dataset (unprocessed) 
 | `preprocessed_data` | Cleaned data 
 | `sample_data` | 5%  sample 
-| `GA/PSO/GWO/GA+PSO notebooks` | Jupyter notebooks 
+| `GA/PSO/GWO/GA+PSO/Random forest notebooks` | Jupyter notebooks 
 | `conference paper` | Conference paper
 | `video` | Project explanation 
 
