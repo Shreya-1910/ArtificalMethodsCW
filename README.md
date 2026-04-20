@@ -13,7 +13,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 | `sample_data` | 5%  sample 
 | `Optimized_Algorithm_codes` | Jupyter notebooks of all the optimization algorithm codes
 | `COMP2024-CW-GroupTeamAlpha` | Conference paper
-| `videolink` | Pdf with video link which contains project explanation 
+| `links` | Pdf with video link which contains project explanation, pre processed data set and full dataset.
 | `README.md` | execution instructions
 | `OptimisationSample` | Code to generate 5% sample data from preprocessed dataset |
 
