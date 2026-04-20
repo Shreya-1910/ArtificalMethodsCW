@@ -1,5 +1,5 @@
 # ArtificalMethodsCW
-# Intrusion Detection System using Feature Selection (PSO, GA, Hybrid PSO-GA)
+# Intrusion Detection System using Feature Selection (PSO, GA,GWO and Hybrid PSO-GA)
 
 This project focuses on intrusion detection using the CICIDS2017 dataset, where feature selection is performed using metaheuristic optimization algorithms (PSO, GA, and Hybrid PSO-GA) to reduce dimensionality while maintaining high classification performance with a Random Forest model.
 
@@ -21,7 +21,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 
 Important Notes
 
-- The project includes a 5% sample dataset for running the PSO-GA hybrid optimization algorithms.
+- The project includes a 5% sample dataset for running the optimization algorithms.
 - The sample data is split into training and validation sets to evaluate feature subset fitness during optimization.
 - After optimal features are selected, a final Random Forest model is trained on the full preprocessed training dataset and evaluated on the full preprocessed test dataset.
 - You MUST update the dataset file paths in the notebooks:
@@ -40,4 +40,4 @@ Important Notes
 ---
 
 ##  Summary
-This project demonstrates how metaheuristic algorithms (PSO, GA, and Hybrid PSO-GA) can effectively reduce feature selected while improving or maintaining intrusion detection performance using a Random Forest classifier.
+This project demonstrates how metaheuristic algorithms (PSO, GA, GWO and Hybrid PSO-GA) can effectively reduce feature selected while improving or maintaining intrusion detection performance using a Random Forest classifier.
