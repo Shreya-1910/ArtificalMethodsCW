@@ -11,7 +11,7 @@ This project focuses on intrusion detection using the CICIDS2017 dataset, where 
 | `CICIDS2017` | Original CICIDS2017 dataset (unprocessed) 
 | `preprocessed_data` | Cleaned data 
 | `sample_data` | 5%  sample 
-| `Optimized_Algorithm_codes` | Jupyter notebooks of all the optimization algorithm codes
+| `Optimized_Algorithm_codes` | Jupyter source file of all the optimization algorithm codes
 | `COMP2024-CW-GroupTeamAlpha` | Conference paper
 | `links` | Pdf with video link, pre processed data set and full dataset.
 | `README.md` | execution instructions
